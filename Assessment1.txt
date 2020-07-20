@@ -1,0 +1,33 @@
+1. What is your understanding of Blockchain ?
+
+	Blockchain is an open distributed ledger.It record transactions between two parties efficiently(without involvement of third parties) and that the records cannot be updated and deleted.
+	Blockchain provides data transparency i.e., ability to access and work with data no matter where they are located.
+	It came into limelight after the international banking crisis which happened in 2008.
+	Blockchain provide more security.
+	A blockchain is a mixed technology of Distributed Databases & Cryptocurrency where data cannot be immutable,verifable and tamper-proof.
+
+2. What is the core problem Blockchain trying to solve?
+
+	i  . data security
+	ii . authenticity
+	iii. Centralization(like in banking sectors)
+	iv . data integrity
+	v.
+3. What are the few features which Blockchain will give u ?
+
+	i  . Verifiability
+	ii . Immutable
+	iii. Tamper-Proof
+	iv . Unchanged
+
+4. What all things does a Block contain?
+	1.Current Block Hash
+	2.Data Record of current block
+	3.Previous Block Hash
+	4.Signature
+	5.Mining Key
+
+5. How is the verifiability of Block chain is been attained ?
+	The blocks are connected to other like in linked list where :
+	 	current block hash = previous block hash + data in current block.
+	The data hash copy is stored in n different computers so that if any person tries to update or delete the record the respective block hash change in any computer, the miners verify the data/transactions and find  the data hash which has been modified. And the modified data is changed to its actual data.This verification is done by the community(Blockchain miners,no third party is involved).
